@@ -1,5 +1,5 @@
 #include "kernel/x86_64/cmos.h"
-#include <brutal-sync>
+#include <stratus-sync>
 #include "kernel/x86_64/asm.h"
 
 static Lock _lock;

@@ -1,8 +1,8 @@
 #include <bal/abi.h>
 #include <bal/hw.h>
-#include <brutal-alloc>
-#include <brutal-debug>
-#include <brutal-ui>
+#include <stratus-alloc>
+#include <stratus-debug>
+#include <stratus-ui>
 #include <hw/ps2/ps2.h>
 #include <ipc/ipc.h>
 #include <protos/event.h>

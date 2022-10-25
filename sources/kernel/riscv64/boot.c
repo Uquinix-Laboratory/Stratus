@@ -1,9 +1,9 @@
 #include <bal/boot.h>
 #include <fdt/fdt.h>
 #include <fdt/handover.h>
-#include <brutal-alloc>
-#include <brutal-debug>
-#include <brutal-ds>
+#include <stratus-alloc>
+#include <stratus-debug>
+#include <stratus-ds>
 #include "kernel/arch.h"
 #include "kernel/pmm.h"
 #include "kernel/riscv64/arch.h"

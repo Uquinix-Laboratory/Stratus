@@ -1,5 +1,5 @@
-#include <brutal-debug>
-#include <brutal-gfx>
+#include <stratus-debug>
+#include <stratus-gfx>
 #include <codec-gzip>
 
 #include "ssfn2.h"

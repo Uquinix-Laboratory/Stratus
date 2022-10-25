@@ -1,7 +1,7 @@
 #include <bvm/eval.h>
 #include <bvm/obj.h>
-#include <brutal-alloc>
-#include <brutal-debug>
+#include <stratus-alloc>
+#include <stratus-debug>
 
 int main(int argc, char const *argv[])
 {

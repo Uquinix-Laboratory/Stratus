@@ -1,5 +1,5 @@
 #include <cc/lex/lexer.h>
-#include <brutal-debug>
+#include <stratus-debug>
 
 struct
 {

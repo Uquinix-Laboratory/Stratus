@@ -1,5 +1,5 @@
-#include <brutal-debug>
-#include <brutal-fmt>
+#include <stratus-debug>
+#include <stratus-fmt>
 #include <idl/ast/builder.h>
 #include <idl/parse.h>
 

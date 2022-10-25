@@ -1,8 +1,8 @@
 #pragma once
 
 #include <bal/abi.h>
-#include <brutal-ds>
-#include <brutal-sync>
+#include <stratus-ds>
+#include <stratus-sync>
 
 typedef void ObjectDtor(void *object);
 

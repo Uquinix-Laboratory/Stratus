@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-base>
+#include <stratus-base>
 
 typedef uintptr_t Pages;
 typedef Pages *VmmSpace;

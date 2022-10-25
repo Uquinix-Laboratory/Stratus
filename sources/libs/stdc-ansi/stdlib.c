@@ -2,11 +2,11 @@
 #include <embed/task.h>
 #include <stdlib.h>
 #include <string.h>
-#include <brutal-alloc>
-#include <brutal-debug>
-#include <brutal-math>
-#include <brutal-mem>
-#include <brutal-parse>
+#include <stratus-alloc>
+#include <stratus-debug>
+#include <stratus-math>
+#include <stratus-mem>
+#include <stratus-parse>
 
 /* --- 7.22 - General utilities --------------------------------------------- */
 

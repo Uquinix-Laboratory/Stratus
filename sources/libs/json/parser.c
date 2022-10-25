@@ -1,6 +1,6 @@
 #include <json/parser.h>
-#include <brutal-alloc>
-#include <brutal-io>
+#include <stratus-alloc>
+#include <stratus-io>
 
 static bool json_skip_comment(Scan *scan)
 {

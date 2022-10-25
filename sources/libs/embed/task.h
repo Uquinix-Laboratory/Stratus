@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-task/task.h>
+#include <stratus-task/task.h>
 
 int embed_task_self(void);
 

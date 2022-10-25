@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-text>
+#include <stratus-text>
 
 #define SSFN2_MAGIC str$("SFN2")
 #define SSFN2_COLLECTION str$("SFNC")

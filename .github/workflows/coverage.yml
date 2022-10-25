@@ -21,7 +21,7 @@ jobs:
 
             - name: Run Tests
               run: |
-                  TOOLCHAIN=llvm ./brutal.sh --coverage test
+                  TOOLCHAIN=llvm ./stratus.sh --coverage test
                   llvm-profdata-13 merge -sparse `find . -name "*.profraw"` -o coverage.profdata
                   llvm-cov-13 show ./bin/devel/x86_64-host-llvm/test -instr-profile=coverage.profdata -format=text > coverage.txt
 

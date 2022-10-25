@@ -1,6 +1,6 @@
 #include "kernel/memory.h"
-#include <brutal-alloc>
-#include <brutal-debug>
+#include <stratus-alloc>
+#include <stratus-debug>
 
 void memory_destroy(Memory *self)
 {

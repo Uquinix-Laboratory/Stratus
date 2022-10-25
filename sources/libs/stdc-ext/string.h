@@ -16,7 +16,7 @@ void *memfrob(void *s, size_t n);
 
 #endif
 
-#ifdef _BRUTAL_SOURCE
+#ifdef _STRATUS_SOURCE
 
 void memswap(void *block1, void *block2, size_t n);
 

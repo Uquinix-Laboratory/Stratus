@@ -1,6 +1,6 @@
 #include <acpi/base.h>
 #include <acpi/rsdt.h>
-#include <brutal-debug>
+#include <stratus-debug>
 
 #ifdef __kernel__
 

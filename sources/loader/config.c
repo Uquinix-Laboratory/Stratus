@@ -1,6 +1,6 @@
 #include <json/parser.h>
-#include <brutal-alloc>
-#include <brutal-debug>
+#include <stratus-alloc>
+#include <stratus-debug>
 #include "loader/config.h"
 
 LoaderEntry config_entry_parse(Json json)

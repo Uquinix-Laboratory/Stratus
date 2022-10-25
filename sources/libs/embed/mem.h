@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-base>
+#include <stratus-base>
 
 #if defined(__x86_64__)
 #    define EMBED_HAS_MEMSET 1

@@ -3,7 +3,7 @@
 #include <bal/boot.h>
 #include <bal/hw.h>
 #include <ipc/ipc.h>
-#include <brutal-ds>
+#include <stratus-ds>
 
 typedef enum
 {

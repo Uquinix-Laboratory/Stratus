@@ -1,8 +1,8 @@
 #include <ahci/ahci.h>
 #include <ahci/device.h>
 #include <protos/pci.h>
-#include <brutal-alloc>
-#include <brutal-debug>
+#include <stratus-alloc>
+#include <stratus-debug>
 
 int ipc_component_main(IpcComponent *self)
 {

@@ -1,5 +1,5 @@
 #include "kernel/tasking.h"
-#include <brutal-debug>
+#include <stratus-debug>
 #include "kernel/arch.h"
 #include "kernel/sched.h"
 #include "kernel/task.h"

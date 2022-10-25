@@ -2,7 +2,7 @@
 
 #include <virtio/device.h>
 #include <virtio/virtqueue.h>
-#include <brutal-base>
+#include <stratus-base>
 
 typedef struct
 {

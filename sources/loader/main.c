@@ -1,6 +1,6 @@
-#include <brutal-alloc>
-#include <brutal-debug>
-#include <brutal-io>
+#include <stratus-alloc>
+#include <stratus-debug>
+#include <stratus-io>
 #include <efi/lib.h>
 #include <efi/srvs.h>
 #include <efi/tty.h>

@@ -1,6 +1,6 @@
 #include "kernel/task.h"
-#include <brutal-alloc>
-#include <brutal-debug>
+#include <stratus-alloc>
+#include <stratus-debug>
 #include "kernel/cpu.h"
 #include "kernel/event.h"
 #include "kernel/kernel.h"

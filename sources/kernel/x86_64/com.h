@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-base>
+#include <stratus-base>
 
 enum com_port
 {

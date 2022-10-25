@@ -1,7 +1,7 @@
 #pragma once
 
-#include <brutal-base>
-#include <brutal-io>
+#include <stratus-base>
+#include <stratus-io>
 
 void embed_log_prefix(IoWriter writer);
 

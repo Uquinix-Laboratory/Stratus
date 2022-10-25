@@ -1,5 +1,5 @@
 #include "kernel/x86_64/gdt.h"
-#include <brutal-sync>
+#include <stratus-sync>
 
 static Tss _tss = {
     .reserved = 0,

@@ -1,7 +1,7 @@
 #pragma once
 
 #include <bal/abi.h>
-#include <brutal-mem>
+#include <stratus-mem>
 
 typedef union PACKED
 {

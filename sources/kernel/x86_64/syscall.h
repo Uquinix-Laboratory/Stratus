@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-base>
+#include <stratus-base>
 
 void syscall_initialize(void);
 

@@ -1,6 +1,6 @@
 #include "kernel/context.h"
-#include <brutal-alloc>
-#include <brutal-debug>
+#include <stratus-alloc>
+#include <stratus-debug>
 #include "kernel/x86_64/asm.h"
 #include "kernel/x86_64/gdt.h"
 #include "kernel/x86_64/simd.h"

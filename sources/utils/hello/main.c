@@ -1,4 +1,4 @@
-#include <brutal-fmt>
+#include <stratus-fmt>
 
 int main(int argc, char const *argv[])
 {

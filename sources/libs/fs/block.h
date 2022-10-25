@@ -1,8 +1,8 @@
 #pragma once
 
-#include <brutal-ds>
-#include <brutal-io>
-#include <brutal-mem>
+#include <stratus-ds>
+#include <stratus-io>
+#include <stratus-mem>
 
 typedef enum
 {

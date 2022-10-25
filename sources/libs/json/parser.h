@@ -1,7 +1,7 @@
 #pragma once
 
 #include <json/objects.h>
-#include <brutal-parse>
+#include <stratus-parse>
 
 Json json_parse_array(Scan *scan, Alloc *alloc);
 

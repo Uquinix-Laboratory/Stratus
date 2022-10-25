@@ -1,6 +1,6 @@
 #include "kernel/vmm.h"
-#include <brutal-debug>
-#include <brutal-sync>
+#include <stratus-debug>
+#include <stratus-sync>
 #include "kernel/heap.h"
 #include "kernel/mmap.h"
 #include "kernel/riscv64/asm.h"

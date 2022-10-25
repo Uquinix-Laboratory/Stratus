@@ -1,5 +1,5 @@
 #include <idl/json.h>
-#include <brutal-debug>
+#include <stratus-debug>
 
 Json idl_jgen_ctype(IdlCtype ctype_, Alloc *alloc)
 {

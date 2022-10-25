@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-base>
+#include <stratus-base>
 
 #define ELF_HEADER_MAGIC "\177ELF"
 

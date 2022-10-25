@@ -1,6 +1,6 @@
-#include <brutal-debug>
-#include <brutal-fmt>
-#include <brutal-hash>
+#include <stratus-debug>
+#include <stratus-fmt>
+#include <stratus-hash>
 #include <idl/ast.h>
 #include <idl/ast/builder.h>
 #include <idl/parse.h>

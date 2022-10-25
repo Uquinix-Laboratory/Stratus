@@ -1,8 +1,8 @@
 #pragma once
 
 #include <cc/ast/expr.h>
-#include <brutal-base>
-#include <brutal-ds>
+#include <stratus-base>
+#include <stratus-ds>
 typedef enum
 {
     CSTMT_INVALID,

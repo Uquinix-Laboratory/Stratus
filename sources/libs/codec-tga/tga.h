@@ -1,7 +1,7 @@
 #pragma once
 
-#include <brutal-gfx/buf.h>
-#include <brutal-io>
+#include <stratus-gfx/buf.h>
+#include <stratus-io>
 
 // using http://tfc.duke.free.fr/coding/tga_specs.pdf
 

@@ -2,7 +2,7 @@
 
 #include <bal/abi.h>
 #include <bal/boot.h>
-#include <brutal-ds>
+#include <stratus-ds>
 
 #define PMM_USED (true)
 #define PMM_UNUSED (false)

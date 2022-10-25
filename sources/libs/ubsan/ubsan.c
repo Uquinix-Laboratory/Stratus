@@ -1,5 +1,5 @@
-#include <brutal-debug>
-#include <brutal-text>
+#include <stratus-debug>
+#include <stratus-text>
 
 struct _UbsanSrc
 {

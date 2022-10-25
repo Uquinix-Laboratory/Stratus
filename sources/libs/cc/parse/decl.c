@@ -1,5 +1,5 @@
 #include <cc/parse/parser.h>
-#include <brutal-debug>
+#include <stratus-debug>
 
 void cparse_func_params(Lex *lex, CType *type, Alloc *alloc)
 {

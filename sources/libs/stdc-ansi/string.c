@@ -1,10 +1,10 @@
-#define _BRUTAL_ALLOW_BANNED
+#define _STRATUS_ALLOW_BANNED
 
 /* --- 7.24 - String handling ----------------------------------------------- */
 
 #include <string.h>
-#include <brutal-alloc>
-#include <brutal-mem>
+#include <stratus-alloc>
+#include <stratus-mem>
 
 /* --- 7.24.2 - Copying functions ------------------------------------------- */
 

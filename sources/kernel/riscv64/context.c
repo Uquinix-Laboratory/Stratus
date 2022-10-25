@@ -1,6 +1,6 @@
 #include "kernel/context.h"
-#include <brutal-alloc>
-#include <brutal-debug>
+#include <stratus-alloc>
+#include <stratus-debug>
 
 Context *context_create(void)
 {

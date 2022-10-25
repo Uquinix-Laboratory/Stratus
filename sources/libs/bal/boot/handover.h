@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-text>
+#include <stratus-text>
 
 // "handover" in ascii
 #define HANDOVER_TAG 0x68616e646f766572

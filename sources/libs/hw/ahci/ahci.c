@@ -1,6 +1,6 @@
 #include <ahci/ahci.h>
 #include <ahci/device.h>
-#include <brutal-debug>
+#include <stratus-debug>
 
 static HbaPortSig ahci_device_type(HbaPort *port)
 {

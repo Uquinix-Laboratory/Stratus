@@ -1,8 +1,8 @@
 #include "kernel/pmm.h"
-#include <brutal-debug>
-#include <brutal-ds>
-#include <brutal-mem>
-#include <brutal-sync>
+#include <stratus-debug>
+#include <stratus-ds>
+#include <stratus-mem>
+#include <stratus-sync>
 
 #include "kernel/arch.h"
 #include "kernel/mmap.h"

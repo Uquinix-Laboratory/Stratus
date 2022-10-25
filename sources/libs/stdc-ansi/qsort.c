@@ -1,4 +1,4 @@
-#define _BRUTAL_SOURCE
+#define _STRATUS_SOURCE
 
 #include <stdlib.h>
 #include <string.h>

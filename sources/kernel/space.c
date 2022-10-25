@@ -1,6 +1,6 @@
 #include "kernel/space.h"
-#include <brutal-alloc>
-#include <brutal-debug>
+#include <stratus-alloc>
+#include <stratus-debug>
 
 /* --- Memory Mappings ------------------------------------------------------ */
 

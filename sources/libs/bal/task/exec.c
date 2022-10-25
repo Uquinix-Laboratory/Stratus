@@ -1,7 +1,7 @@
 #include <bal/abi.h>
 #include <bal/task/task.h>
 #include <elf/elf.h>
-#include <brutal-debug>
+#include <stratus-debug>
 
 static void bal_exec_load(BrHandle space, Elf64Header const *elf_header, BrHandle elf_memory)
 {

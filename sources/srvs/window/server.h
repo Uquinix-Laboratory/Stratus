@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-ui>
+#include <stratus-ui>
 #include "window/client.h"
 #include "window/display.h"
 

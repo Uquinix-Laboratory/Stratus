@@ -1,4 +1,4 @@
-#include <brutal-test>
+#include <stratus-test>
 #include <json/objects.h>
 #include <json/parser.h>
 

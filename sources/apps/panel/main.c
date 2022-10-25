@@ -1,5 +1,5 @@
-#include <brutal-io>
-#include <brutal-ui>
+#include <stratus-io>
+#include <stratus-ui>
 
 UiWin *about_win_create(UiApp *app)
 {

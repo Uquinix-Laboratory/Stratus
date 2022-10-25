@@ -1,7 +1,7 @@
 #pragma once
 
 #include <cc/ast/unit.h>
-#include <brutal-io>
+#include <stratus-io>
 
 void cc_trans_decl(Emit *emit, CDecl decl);
 

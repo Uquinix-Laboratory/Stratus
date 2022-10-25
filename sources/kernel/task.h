@@ -1,8 +1,8 @@
 #pragma once
 
 #include <bal/abi.h>
-#include <brutal-text>
-#include <brutal-time>
+#include <stratus-text>
+#include <stratus-time>
 
 #include "kernel/channel.h"
 #include "kernel/context.h"

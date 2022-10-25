@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-ds>
+#include <stratus-ds>
 
 typedef struct _IdlType IdlType;
 

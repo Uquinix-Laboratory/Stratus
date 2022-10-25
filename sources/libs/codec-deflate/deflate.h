@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-io/wbits.h>
+#include <stratus-io/wbits.h>
 
 typedef struct _DeflateCompressor
 {

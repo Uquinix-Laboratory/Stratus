@@ -1,5 +1,5 @@
 #include <bal/abi.h>
-#include <brutal-debug>
+#include <stratus-debug>
 #include <embed/log.h>
 
 #include "kernel/arch.h"

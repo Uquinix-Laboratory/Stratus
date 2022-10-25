@@ -1,5 +1,5 @@
 #include "kernel/cpu.h"
-#include <brutal-debug>
+#include <stratus-debug>
 #include "kernel/heap.h"
 #include "kernel/kernel.h"
 #include "kernel/riscv64/cpu.h"

@@ -1,8 +1,8 @@
 #pragma once
 
 #include <ipc/capability.h>
-#include <brutal-ds>
-#include <brutal-math>
+#include <stratus-ds>
+#include <stratus-math>
 
 typedef struct
 {

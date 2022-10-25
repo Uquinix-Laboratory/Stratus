@@ -1,6 +1,6 @@
 #include "kernel/channel.h"
-#include <brutal-alloc>
-#include <brutal-debug>
+#include <stratus-alloc>
+#include <stratus-debug>
 #include "kernel/kernel.h"
 #include "kernel/sched.h"
 

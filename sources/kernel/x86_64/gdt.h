@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-base>
+#include <stratus-base>
 
 #define GDT_ENTRY_COUNT 5
 #define GDT_SEGMENT (0b00010000)

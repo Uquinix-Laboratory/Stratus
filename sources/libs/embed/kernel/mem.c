@@ -1,5 +1,5 @@
-#include <brutal-debug>
-#include <brutal-sync>
+#include <stratus-debug>
+#include <stratus-sync>
 #include <embed/mem.h>
 
 #include "kernel/heap.h"

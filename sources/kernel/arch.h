@@ -2,7 +2,7 @@
 
 #include <bal/abi.h>
 #include <bal/boot.h>
-#include <brutal-io>
+#include <stratus-io>
 
 #include "kernel/tasking.h"
 

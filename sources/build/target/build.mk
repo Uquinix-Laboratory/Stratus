@@ -1,14 +1,14 @@
 LIBS_SRC = \
-	$(wildcard sources/libs/embed/brutal/*.c) \
-	$(wildcard sources/libs/embed/brutal/$(ARCH)/*.c) \
-	$(wildcard sources/libs/embed/brutal/$(ARCH)/*.s) \
+	$(wildcard sources/libs/embed/stratus/*.c) \
+	$(wildcard sources/libs/embed/stratus/$(ARCH)/*.c) \
+	$(wildcard sources/libs/embed/stratus/$(ARCH)/*.s) \
 	$(wildcard sources/libs/embed/$(ARCH)/*.c) \
 	$(wildcard sources/libs/embed/$(ARCH)/*.s) \
 	$(wildcard sources/libs/ipc/*.c) \
 	$(wildcard sources/libs/ipc/*/*.c) \
 	$(wildcard sources/libs/bal/*.c) \
 	$(wildcard sources/libs/bal/*/*.c) \
-	$(wildcard sources/libs/brutal-*/*.c) \
+	$(wildcard sources/libs/stratus-*/*.c) \
 	$(wildcard sources/libs/codec-*/*.c) \
 	$(wildcard sources/libs/cc/*.c) \
 	$(wildcard sources/libs/cc/*/*.c) \
@@ -29,7 +29,7 @@ LIBS_OBJ = \
 	$(patsubst $(GENDIR)/%, $(BINDIR_USER)/%.o, $(GENERATED_SRC))
 
 
-LIBS_BIN=$(BINDIR_USER)/libbrutal.a
+LIBS_BIN=$(BINDIR_USER)/libstratus.a
 
 DEPENDENCIES += $(LIBS_OBJ:.o=.d)
 
@@ -76,8 +76,8 @@ $$($(1)_BIN): $$($(1)_OBJ) $(LIBS_BIN) $$($(1)_JSON)
 	@$$(MKCWD)
 	$(USER_LD) -o $$@ $$($(1)_OBJ) $(LIBS_BIN) $(USER_ULDFLAGS)
 	$(USER_OBJCOPY) \
-        --add-section .brutal.manifest=$$($(1)_JSON) \
-        --set-section-flags .brutal.manifest=readonly,contents \
+        --add-section .stratus.manifest=$$($(1)_JSON) \
+        --set-section-flags .stratus.manifest=readonly,contents \
         $$@
 
 

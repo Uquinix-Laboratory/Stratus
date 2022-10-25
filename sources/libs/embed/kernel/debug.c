@@ -1,4 +1,4 @@
-#include <brutal-fmt>
+#include <stratus-fmt>
 #include <embed/debug.h>
 
 #include "kernel/cpu.h"

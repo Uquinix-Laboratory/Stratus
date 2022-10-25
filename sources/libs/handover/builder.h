@@ -1,8 +1,8 @@
 #pragma once
 
 #include <handover/handover.h>
-#include <brutal-ds>
-#include <brutal-text>
+#include <stratus-ds>
+#include <stratus-text>
 
 typedef struct
 {

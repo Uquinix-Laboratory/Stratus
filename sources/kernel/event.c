@@ -1,7 +1,7 @@
 #include "kernel/event.h"
-#include <brutal-alloc>
-#include <brutal-debug>
-#include <brutal-ds>
+#include <stratus-alloc>
+#include <stratus-debug>
+#include <stratus-ds>
 
 static RwLock _lock = {};
 static Vec(EventBinding) _bindings = {};

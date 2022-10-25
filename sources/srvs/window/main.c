@@ -1,6 +1,6 @@
 #include <protos/hw.h>
 #include <protos/system.h>
-#include <brutal-alloc>
+#include <stratus-alloc>
 #include "window/server.h"
 
 int ipc_component_main(IpcComponent *self)

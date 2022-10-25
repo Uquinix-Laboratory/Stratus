@@ -1,7 +1,7 @@
 #pragma once
 
 #include <virtio/splitvqueue.h>
-#include <brutal-base>
+#include <stratus-base>
 
 // The descriptor of one buffer inside the queue.
 typedef struct PACKED

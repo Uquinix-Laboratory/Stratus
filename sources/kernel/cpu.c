@@ -1,5 +1,5 @@
 #include "kernel/cpu.h"
-#include <brutal-debug>
+#include <stratus-debug>
 
 void cpu_begin_interrupt(void)
 {

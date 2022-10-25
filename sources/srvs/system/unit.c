@@ -1,7 +1,7 @@
 #include <bal/task.h>
 #include <elf/elf.h>
 #include <json/parser.h>
-#include <brutal-debug>
+#include <stratus-debug>
 #include "system/unit.h"
 
 void unit_init(Unit *self, Str name, BalMem payload, Alloc *alloc)

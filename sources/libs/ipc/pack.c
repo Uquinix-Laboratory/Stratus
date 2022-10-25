@@ -1,6 +1,6 @@
 #include <ipc/pack.h>
-#include <brutal-debug>
-#include <brutal-mem>
+#include <stratus-debug>
+#include <stratus-mem>
 
 void ipc_pack_init(IpcPack *self)
 {

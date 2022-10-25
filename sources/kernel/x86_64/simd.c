@@ -1,5 +1,5 @@
-#include <brutal-debug>
-#include <brutal-mem>
+#include <stratus-debug>
+#include <stratus-mem>
 
 #include "kernel/x86_64/asm.h"
 #include "kernel/x86_64/cpuid.h"

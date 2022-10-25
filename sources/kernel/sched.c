@@ -1,6 +1,6 @@
 #include "kernel/sched.h"
-#include <brutal-alloc>
-#include <brutal-debug>
+#include <stratus-alloc>
+#include <stratus-debug>
 #include "kernel/arch.h"
 #include "kernel/cpu.h"
 

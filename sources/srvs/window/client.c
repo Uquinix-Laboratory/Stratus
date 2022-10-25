@@ -1,5 +1,5 @@
 #include <protos/window.h>
-#include <brutal-alloc>
+#include <stratus-alloc>
 #include "window/client.h"
 #include "window/server.h"
 

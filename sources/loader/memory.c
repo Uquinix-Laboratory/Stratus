@@ -1,5 +1,5 @@
-#include <brutal-debug>
-#include <brutal-mem>
+#include <stratus-debug>
+#include <stratus-mem>
 #include <efi/lib.h>
 #include <efi/srvs/bs.h>
 #include <embed/mem.h>

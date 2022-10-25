@@ -1,5 +1,5 @@
-#include <brutal-fmt>
-#include <brutal-math>
+#include <stratus-fmt>
+#include <stratus-math>
 
 int main(int, char const *[])
 {

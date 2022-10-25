@@ -3,8 +3,8 @@
 #include <bal/abi.h>
 #include <ipc/pack.h>
 #include <ipc/unpack.h>
-#include <brutal-base>
-#include <brutal-text>
+#include <stratus-base>
+#include <stratus-text>
 
 typedef struct
 {

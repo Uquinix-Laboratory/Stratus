@@ -1,6 +1,6 @@
 #include <hw/ps2/keyboard.h>
 #include <ipc/ipc.h>
-#include <brutal-input/keyboard.h>
+#include <stratus-input/keyboard.h>
 
 static void ps2_keyboard_handle_code(Ps2Keyboard *ps2, uint8_t packet)
 {

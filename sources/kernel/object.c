@@ -1,5 +1,5 @@
 #include "kernel/object.h"
-#include <brutal-alloc>
+#include <stratus-alloc>
 
 static _Atomic BrHandle _id = 1;
 static _Atomic bool _init = false;

@@ -4,9 +4,9 @@
 #include <idl/parse.h>
 #include <idl/sema.h>
 #include <json/emit.h>
-#include <brutal-alloc>
-#include <brutal-debug>
-#include <brutal-io>
+#include <stratus-alloc>
+#include <stratus-debug>
+#include <stratus-io>
 
 int main(int argc, char const *argv[])
 {

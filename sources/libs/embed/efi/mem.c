@@ -1,6 +1,6 @@
-#include <brutal-alloc>
-#include <brutal-debug>
-#include <brutal-sync>
+#include <stratus-alloc>
+#include <stratus-debug>
+#include <stratus-sync>
 #include <efi/lib.h>
 #include <efi/srvs/bs.h>
 #include <embed/mem.h>

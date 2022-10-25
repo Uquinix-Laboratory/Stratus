@@ -1,7 +1,7 @@
 #include <cc/builder.h>
 #include <cc/parse/parser.h>
-#include <brutal-debug>
-#include <brutal-parse>
+#include <stratus-debug>
+#include <stratus-parse>
 
 static COp lexeme_to_cop[CLEX_COUNT] = {
     [CLEX_PLUSPLUS] = COP_INC,

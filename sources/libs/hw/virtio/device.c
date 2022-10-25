@@ -1,5 +1,5 @@
 #include <virtio/device.h>
-#include <brutal-debug>
+#include <stratus-debug>
 
 void virtio_device_set_if_acknowledged(VirtioDevice *device, uint8_t status)
 {

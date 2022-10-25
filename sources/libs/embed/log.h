@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-io>
+#include <stratus-io>
 
 void embed_log_lock(void);
 

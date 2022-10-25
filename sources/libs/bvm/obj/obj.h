@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-alloc>
+#include <stratus-alloc>
 #include <bvm/obj/val.h>
 
 struct _BvmObj

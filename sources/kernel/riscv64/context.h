@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-base>
+#include <stratus-base>
 struct _Context
 {
     uintptr_t syscall_kernel_stack;

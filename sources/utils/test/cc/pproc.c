@@ -1,5 +1,5 @@
-#include <brutal-debug>
-#include <brutal-test>
+#include <stratus-debug>
+#include <stratus-test>
 #include <cc/lex.h>
 #include <cc/parse.h>
 

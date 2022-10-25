@@ -1,6 +1,6 @@
 #include <bal/abi/syscalls.h>
 #include <bal/abi/wrappers.h>
-#include <brutal-debug>
+#include <stratus-debug>
 
 BrResult bal_unmap(BrHandle space, void *base, size_t len)
 {

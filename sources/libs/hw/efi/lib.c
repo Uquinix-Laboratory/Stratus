@@ -1,7 +1,7 @@
 #include <efi/lib.h>
-#include <brutal-alloc>
-#include <brutal-debug>
-#include <brutal-io>
+#include <stratus-alloc>
+#include <stratus-debug>
+#include <stratus-io>
 
 static bool _init = false;
 static EFIHandle _handle;

@@ -1,7 +1,7 @@
 #include <bal/abi.h>
 #include <bal/hw/io.h>
-#include <brutal-debug>
-#include <brutal-mem>
+#include <stratus-debug>
+#include <stratus-mem>
 
 BalIo bal_io_mem(BalMem *mem)
 {

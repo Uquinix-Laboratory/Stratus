@@ -1,8 +1,8 @@
 #pragma once
 
-#include <brutal-ds>
-#include <brutal-gfx>
-#include <brutal-io>
+#include <stratus-ds>
+#include <stratus-gfx>
+#include <stratus-io>
 
 #include "spec.h"
 

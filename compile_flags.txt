@@ -1,5 +1,5 @@
 -std=gnu2x
--D__brutal__
+-D__stratus__
 -Wall
 -Wextra
 -Werror

@@ -1,6 +1,6 @@
 #include "kernel/riscv64/interrupts.h"
-#include <brutal-debug>
-#include <brutal-text>
+#include <stratus-debug>
+#include <stratus-text>
 #include "kernel/riscv64/asm.h"
 
 extern void interrupt_common(void);

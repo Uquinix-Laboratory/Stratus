@@ -1,6 +1,6 @@
 #include <bal/hw/mem.h>
-#include <brutal-base>
-#include <brutal-debug>
+#include <stratus-base>
+#include <stratus-debug>
 
 MaybeError bal_mem_init_mobj(BalMem *self, BrHandle handle)
 {

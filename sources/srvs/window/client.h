@@ -2,9 +2,9 @@
 
 #include <bal/hw.h>
 #include <ipc/ipc.h>
-#include <brutal-gfx>
-#include <brutal-math>
-#include <brutal-ui>
+#include <stratus-gfx>
+#include <stratus-math>
+#include <stratus-ui>
 
 typedef struct
 {

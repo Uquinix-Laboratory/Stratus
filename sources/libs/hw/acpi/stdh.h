@@ -1,7 +1,7 @@
 #pragma once
 
-#include <brutal-base>
-#include <brutal-text>
+#include <stratus-base>
+#include <stratus-text>
 
 typedef struct PACKED
 {

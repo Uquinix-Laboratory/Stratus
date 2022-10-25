@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-io>
+#include <stratus-io>
 
 /**
   @brief Decompress a raw deflate stream

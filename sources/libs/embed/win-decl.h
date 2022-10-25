@@ -1,11 +1,11 @@
 #pragma once
 
-#include <brutal-base>
+#include <stratus-base>
 
 #if defined(SYSTEM_SDL)
 #    include <embed/sdl/win.h>
-#elif defined(SYSTEM_BRUTAL)
-#    include <embed/brutal/win.h>
+#elif defined(SYSTEM_STRATUS)
+#    include <embed/stratus/win.h>
 #else
 #    error "Unsupported embedder!"
 #endif

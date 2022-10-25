@@ -2,15 +2,15 @@ KERNEL=$(BINDIR_KERNEL)/kernel.elf
 
 KERNEL_SRC += \
 	sources/libs/bal/abi/helpers.c \
-	sources/libs/brutal-io/emit.c \
-	sources/libs/brutal-io/funcs.c \
-	sources/libs/brutal-io/base.c \
-	sources/libs/brutal-time/convert.c \
+	sources/libs/stratus-io/emit.c \
+	sources/libs/stratus-io/funcs.c \
+	sources/libs/stratus-io/base.c \
+	sources/libs/stratus-time/convert.c \
 	sources/libs/elf/elf.c \
 	sources/libs/bal/boot/handover.c \
 	sources/libs/stdc-ansi/ctype.c \
 	sources/libs/stdc-ansi/string.c \
-	sources/libs/brutal-io/buf.c \
+	sources/libs/stratus-io/buf.c \
 	$(wildcard sources/kernel/*.c) \
 	$(wildcard sources/kernel/$(ARCH)/*.c) \
 	$(wildcard sources/kernel/$(ARCH)/*.s) \
@@ -18,17 +18,17 @@ KERNEL_SRC += \
 	$(wildcard sources/libs/embed/$(ARCH)/*.s) \
 	$(wildcard sources/libs/embed/kernel/*.c) \
 	$(wildcard sources/libs/hw/acpi/*.c) \
-	$(wildcard sources/libs/brutal-alloc/*.c) \
-	$(wildcard sources/libs/brutal-ds/*.c) \
-	$(wildcard sources/libs/brutal-hash/*.c) \
+	$(wildcard sources/libs/stratus-alloc/*.c) \
+	$(wildcard sources/libs/stratus-ds/*.c) \
+	$(wildcard sources/libs/stratus-hash/*.c) \
 	$(wildcard sources/libs/hw/fdt/*.c) \
 	$(wildcard sources/libs/hw/uart/*.c) \
-	$(wildcard sources/libs/brutal-parse/*.c) \
-	$(wildcard sources/libs/brutal-debug/*.c) \
-	$(wildcard sources/libs/brutal-mem/*.c) \
-	$(wildcard sources/libs/brutal-sync/*.c) \
-	$(wildcard sources/libs/brutal-text/*.c) \
-	$(wildcard sources/libs/brutal-fmt/*.c) \
+	$(wildcard sources/libs/stratus-parse/*.c) \
+	$(wildcard sources/libs/stratus-debug/*.c) \
+	$(wildcard sources/libs/stratus-mem/*.c) \
+	$(wildcard sources/libs/stratus-sync/*.c) \
+	$(wildcard sources/libs/stratus-text/*.c) \
+	$(wildcard sources/libs/stratus-fmt/*.c) \
 	$(wildcard sources/libs/absan/*.c) \
 	$(wildcard sources/libs/ubsan/*.c)
 

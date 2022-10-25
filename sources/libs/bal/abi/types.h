@@ -1,7 +1,7 @@
 #pragma once
 
-#include <brutal-base/range.h>
-#include <brutal-time>
+#include <stratus-base/range.h>
+#include <stratus-time>
 
 /* --- Syscalls IDs --------------------------------------------------------- */
 

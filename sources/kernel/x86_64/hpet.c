@@ -1,7 +1,7 @@
 #include <acpi/hpet.h>
 #include <acpi/rsdt.h>
-#include <brutal-debug>
-#include <brutal-mem>
+#include <stratus-debug>
+#include <stratus-mem>
 
 #include "kernel/x86_64/hpet.h"
 

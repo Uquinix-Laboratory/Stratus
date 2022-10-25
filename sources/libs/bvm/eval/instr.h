@@ -1,6 +1,6 @@
 #pragma once
 
-#include <brutal-base>
+#include <stratus-base>
 
 #define BVM_FOREACH_OP \
     ITER(NOP)          \

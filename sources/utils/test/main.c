@@ -1,4 +1,4 @@
-#include <brutal-test>
+#include <stratus-test>
 
 int main(int argc, char const *argv[])
 {

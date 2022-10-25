@@ -1,4 +1,4 @@
-#include <brutal-io>
+#include <stratus-io>
 
 #include "constants.h"
 #include "deflate.h"

@@ -1,7 +1,7 @@
 #pragma once
 
-#include <brutal-ds>
-#include <brutal-text>
+#include <stratus-ds>
+#include <stratus-text>
 
 typedef struct
 {
