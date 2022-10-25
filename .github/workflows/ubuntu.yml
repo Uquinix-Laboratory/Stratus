@@ -80,7 +80,4 @@ jobs:
             - name: Build All
               run: |
                   TOOLCHAIN=${{matrix.toolchain}} make all
-
-            - name: Run Tests
-              run: |
-                  TOOLCHAIN=${{matrix.toolchain}} ./stratus.sh test
+                  

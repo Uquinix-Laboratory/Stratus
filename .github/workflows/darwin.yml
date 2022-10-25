@@ -21,7 +21,3 @@ jobs:
             - name: Build All
               run: |
                   sources/build/scripts/env-darwin.sh make all
-
-            - name: Run Tests
-              run: |
-                  sources/build/scripts/env-darwin.sh ./stratus.sh test
