@@ -1,0 +1,9 @@
+All code in this project written by Stratus, Uquinix, and Uquinix Entities is provided under:
+
+	SPDX-License-Identifier: GPL-2.0
+
+In addition, all original code provided by smnx, BRUTAL, and its contributers is provided under:
+
+	MIT License
+
+All contributions to Stratus are subject to this LICENSE file.
