@@ -1,0 +1,5 @@
+module ui;
+
+include brutal-ui;
+
+type UiWinType = __ctype;

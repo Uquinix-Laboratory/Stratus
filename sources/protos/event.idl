@@ -1,0 +1,11 @@
+module event;
+
+import base, math;
+include brutal-ui;
+
+type Event = __ctype(UiEvent);
+
+interface Sink
+{
+    method dispatch Event -> Bool;
+};

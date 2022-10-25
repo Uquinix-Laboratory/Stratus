@@ -1,0 +1,14 @@
+module system;
+
+import base;
+
+errors
+{
+    NOT_FOUND,
+};
+
+interface Server
+{
+    method expose IpcCap;
+    method consume IpcProto -> IpcCap;
+};

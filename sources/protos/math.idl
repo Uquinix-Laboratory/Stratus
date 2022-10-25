@@ -1,0 +1,7 @@
+module math;
+
+include brutal-math, ipc/ipc.h;
+
+type MRectf = __ctype;
+
+type MVec2f = __ctype;
