@@ -20,18 +20,17 @@ usage()
   echo "Usage: $0 [options...] [tool] [args...]"
   echo ""
   echo "Options:"
-  echo "    -a, --all      Make all before"
+  echo "    -a, --all      Build everything"
   echo "    -c, --clean    Do a clean build"
-  echo "    -d, --debug    Run the tool inside a debuger"
-  echo "        --doc      open the doc in your prefered browser"
+  echo "    -d, --debug    Run Stratus with Debugging Enabled"
   echo "    -n, --nuke     Nuke the build dir"
   echo "    -f, --fast     Do it fast"
-  echo "        --format   Format all C and header files in sources/"
-  echo "    -h, --help     Show usage"
+  echo "        --format   Format code in sources/"
+  echo "    -h, --help     Show this help panel"
   echo "    -o, --coverage Generate code coverage"
-  echo "    -r, --run      Start the virtual machine"
+  echo "    -r, --run      Start Stratus in a VM"
   echo "        --resolve  print the path of the tool"
-  echo "    -v, --verbose  Enable detailed logging"
+  echo "    -v, --verbose  Enable detailed logging (verbose mode)"
   echo ""
   echo "Tools:"
   echo "    $TOOLS"
@@ -52,11 +51,6 @@ eval_arg()
 
     "-d" | "--debug")
       DEBUG="lldb --"
-      ;;
-
-    "--doc")
-      doxygen meta/doxyfile
-      xdg-open bin/doxygen/index.html
       ;;
 
     "-n" | "--nuke")
