@@ -1,4 +1,4 @@
-All code in this project written by Stratus, Uquinix, and Uquinix Entities is provided under:
+All code in this project written by Stratus, and Stratus Entities is provided under:
 
 	SPDX-License-Identifier: GPL-2.0
 
