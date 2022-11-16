@@ -22,7 +22,6 @@ BASE_CFLAGS += \
 	-std=gnu2x \
 	-Wall \
 	-Wextra \
-	-Werror \
 	-Wundef \
 	-Wshadow \
 	-Wvla \
