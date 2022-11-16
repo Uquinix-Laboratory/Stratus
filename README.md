@@ -11,6 +11,16 @@ Basis of Stratus
 ================
 Stratus is based on the original code of [BRUTAL](https://github.com/stratus-org/stratus); building on top of it with enhanced drivers, secured code, and an improved graphical user interface - all whilst remaining fully open source and keeping the initial values of the project intact.
 
+Source Tree
+===========
+| Directory | Description |
+| --------- | ----------- |
+| .github | GitHub Actions for testing and building Stratus. |
+| build | Build System & Toolchain for Stratus. |
+| docs | Documentation regarding building Stratus. |
+| sources | Main directory, the entire system. (see [sources/README.md](sources/README.md)) |
+| sysroot | Boot management, user directories, and packages. |
+
 Documentation
 =============
 
